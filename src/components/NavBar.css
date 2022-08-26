@@ -1,0 +1,12 @@
+.imgdigital{
+    width: fit-content;
+    max-width: 45%;
+    padding: 2rem;
+}
+
+.titles{
+    padding: 2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    font-size: larger;
+}
