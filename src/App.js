@@ -1,15 +1,10 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ColorSchemesExample from './components/NavBar';
-import MediaCard from './cardscomponents/Cards.js'
-
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import ColorSchemesExample from './components/header/NavBar';
+import MediaCard from './components/cardscomponents/Cards.js';
+import ItemListContainer from './components/countercomponents/ItemListContainer.js';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 
 class App extends React.Component {
@@ -28,6 +23,13 @@ class App extends React.Component {
           nombres='santi'
           descripcion='soy santi'
           />
+          <MediaCard
+          nombres='pepe'
+          descripcion='el pepe'
+          />
+          <div>
+
+          </div>
         </div>
       </div>
     )
